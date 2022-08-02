@@ -1,0 +1,68 @@
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: rgba(15, 12, 12, 1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+li, a, button {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+    background-color: rgba(41, 36, 36, 1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(41, 36, 36, 1);
+    border-top-style: solid 2px rgba(204, 204, 204, 1);
+    border-bottom-style: solid 2px rgba(204, 204, 204, 1);
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+#signup {
+    color: rgba(233, 191, 41, 1);
+}
+
+#login {
+    color: rgba(152, 143, 210, 1);
+}
+
+
+#signup:hover {
+    color: blueviolet;
+}
+
+#login:hover {
+    color: blueviolet
+}
+
+.nav_links li a:hover {
+    color:blueviolet;
+
+}
